@@ -17,28 +17,45 @@ Refactoring is a key part of the coding process. When refactoring code, you aren
 
 1- Created a ticker Index, and three output arrays
 
-VBA_Challenge resource 1.png
+![VBA_Challenge resource 1](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%201.png)
 
 Created this tickerIndex variable and set it equal to zero. This allows the code to run through all the rows. Then we created three output arrays which is where the data will land.
 
 2- Created a for loop to intialize the tickerVolumes to zero.
-![VBA_Challenge resource 2](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%201.png)
+
+![VBA_Challenge resource 2](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%202.png)
 
 
 Activated worksheet with yearValue variable. TickervVolumes is set to zero. Then we loop over all the rows in the user specified worksheet.
 
 3- Created Script that loops through the stock data.
 
-VBA_Challenge resource 3.png 
+![VBA_Challenge resource 3](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%203.png) 
 
 The script collects data for tickers, tickervolumes, tickersStartingprice, and tickerEndingPrices. The script increases the current tickerVolumes variable every time it spots the same ticker. Then to give value to the tickerSartingPrices and tickerEndingPrices we created a If Then formula that checks to see if the value before the cell is greater then or less then the tickerindex and the current cell is equal to the tickerIndex then it will store it as the tickerStrartingPrices. To find the tickerEndingPrice we check the cell after if it's greater then or less then to which that value becomes the tickerEndingPrices.
 
 4- Created the script for outputting the value into a table with assigned headers.
 
-VBA_Challenge resource 4.png 
+![VBA_Challenge resource 4](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%204.png)
 
 The table is color coded and bolds the column headers for a tidy look. The numbers are displayed in standard form thanks to formating script that automaticlly makes the cells fit the values. 
 
 ##The output tables 
 
  The refactored and the orginal for comparion are very similar and display rough the same values. 
+ 
+ Refactored 2017
+ 
+ ![VBA_Challenge 2017 refactored](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%202017%20refactored.PNG)
+ 
+ Original 2017
+ 
+ ![VBA_Challenge 2017](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%202017.PNG)
+ 
+ Refactored 2018
+ 
+ ![VBA_Challenge 2018 refactored](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%202018%20refactored.PNG)
+ 
+ Original 2018
+ 
+ ![VBA_Challenge 2018](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%202018.PNG)
