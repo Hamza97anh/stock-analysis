@@ -22,7 +22,7 @@ VBA_Challenge resource 1.png
 Created this tickerIndex variable and set it equal to zero. This allows the code to run through all the rows. Then we created three output arrays which is where the data will land.
 
 2- Created a for loop to intialize the tickerVolumes to zero.
-![VBA_Challenge resource 2](https://https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%201.png)
+![VBA_Challenge resource 2](https://github.com/Hamza97anh/stock-analysis./blob/main/VBA_Challenge%20resource%201.png)
 
 
 Activated worksheet with yearValue variable. TickervVolumes is set to zero. Then we loop over all the rows in the user specified worksheet.
